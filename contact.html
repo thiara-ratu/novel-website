@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Thiara Ratu</title>
+
+    <style>
+        /* Gambar Latar belakang */
+        body {
+            background-image: url('assets/images/bg.jpg');
+            background-color:  #48494B;
+        }
+    </style>
+  </head>
+  <body style="height:  1000px;">
+    </style>
+</head>
+<body>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-navbar sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo-bs.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" data-bs-theme="dark" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <!-- Bagian Header -->
+      <header class="container-fluid py">
+        <img class="w-100 img-thumbnail" src="assets/images/banner.jpg" alt="Gambar"> 
+    </header>
+    <!-- Bagian Main -->
+    <main class="container my-3 bg-white">
+        <!-- Bagian Main - 2 Kolom -->
+        <div class="row">
+            <!-- Kolom Besar Bagian Kiri (Konten) -->
+            <div class="col-md-9">
+                <div class="container-fluid py-3 ">
+                    <!-- Isi Konten Form dimulai dari sini -->
+                    <div class="card">
+                        <div class="card-header bg-warning text-dark">
+                            <h5>Beritau kami keluhan Anda</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="my-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" placeholder="Alamat email" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Pesan:</label>
+                                    <textarea class="form-control" rows="5" placeholder="Tulis pesan Anda"
+                                        name="text"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-danger"><i class="fa fa-paper-plane-o"></i>
+                                    Kirim Pesan</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Isi Konten Form dimulai berakhir di sini -->
+                </div>
+                <!-- Bagian Peta dimulai dari sini -->
+                <div class="container-fluid py-3 ">
+                    <h5>Peta</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- 4:3 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item h-100 w-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15708.826398374571!2d123.60986373490262!3d-10.163855338528691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c56834d0886392f%3A0x279c2a166fe9351a!2sKayu%20Putih%2C%20Kec.%20Oebobo%2C%20Kota%20Kupang%2C%20Nusa%20Tenggara%20Tim.!5e0!3m2!1sid!2sid!4v1702605146656!5m2!1sid!2sid" 
+                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bagian Peta berakhir di sini -->
+            </div>
+            <!-- Kolom Besar Bagian Kiri (Konten) berakhir di sini -->
+            <!-- Kolom Kecil Bagian Kanan dimulai dari sini -->
+            <div class="col-md-3">
+                <!-- Link Terkait -->
+                <div class="container-fluid py-3 ">
+                    <!-- Isi Link Terkait dimulai dari sini -->
+                    <div class="card">
+                        <div class="card-header text-center bg-warning text-dark">
+                            <h5><i class="fa fa-external-link-square"></i> Link Terkait</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">Berikut adalah link terkait</p>
+                            <hr />
+                            <div class="list-group list-group-flush">
+                                <a href="https://www.wattpad.com/" target="_BLANK"
+                                    class="list-group-item list-group-item-outline-action">Wattpad</a>
+
+                            <div class="list-group list-group-flush">
+                                <a href="https://www.google.com/search?client=opera-gx&q=fizzo+novel&sourceid=opera&ie=UTF-8&oe=UTF-8" target="_BLANK"
+                                    class="list-group-item list-group-item-outline-action">Fizo Novel</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Isi Link Terkait berakhir di sini -->
+                </div>
+                <!-- Video -->
+                <div class="container py-3">
+                     <!-- Isi Video dimulai dari sini -->
+                    <div class="card">
+                        <div class="card-header text-center bg-warning text-dark">
+                            <h5><i class="fa fa-youtube-play"></i> Video</h5>
+                        </div>
+                        <div class="card-body bg-light">
+                            <!-- 4:3 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item h-100 w-100"
+                                src="https://www.youtube.com/embed/R3infSZu3rY?si=o5boM9dsTbVrLH7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Isi Video berakhir di sini -->
+                </div>
+            </div>
+             <!-- Kolom Kecil Bagian Kanan berakhir di sini -->
+        </div>
+    </main>
+    <!-- Bagian Footer -->
+    <footer class="container-fluid py-3 bg-dark text-white">
+        <div class="row">
+            <div class="col-12 text-center">
+                &copy; Copyright
+                <script>document.write(new Date().getFullYear())</script>. Thiara Ratu - <a
+                    class="text-decoration-none" target="_blank"
+                    href="https://www.facebook.com/donzi.antonio?mibextid=2JQ9oc"><strong>Facebook</strong></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bagian Footer berakhir di sini -->
+    <script src="assets/vendors/bootstrap-5-3-2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
